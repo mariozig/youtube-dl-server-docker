@@ -19,3 +19,6 @@ In your `docker-compose.yml` add:
  ```
  
 The server will be running at `http://0.0.0.0:9191/api`.  Please read the official `youtube-dl-api-server` docs for information on all endpoints and responses: [official API methods](https://youtube-dl-api-server.readthedocs.io/en/latest/api.html#api-methods).
+
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+

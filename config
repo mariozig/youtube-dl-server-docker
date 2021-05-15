@@ -1,0 +1,30 @@
+--add-metadata
+# Umgehe geographische Beschränkungen durch Fälschen des "X-Forwarded-For"-HTTP-Headers (experimentell):
+--geo-bypass
+# Bei Download-Fehlern trotzdem weiter herunterladen:
+--ignore-errors
+# Erzwinge das Fortsetzen des Downloads von teilweise heruntergeladenen Dateien:
+--continue
+# Schreibe die Video-Beschreibung in eine ".description"-Datei, bis auf die Endung hat diese den gleichen
+# Namen wie die Video-Datei; zu öffnen mit jedem Texteditor:
+--write-description
+# Schreibe Video-Anmerkungen bzw. -Kommentare (sofern verfügbar) in eine ".annotations.xml"-Datei:
+--write-annotations
+# Schreibe Untertitel-Datei(en) (sofern verfügbar); diese Option wird zwingend von der Option "--embed-subs"
+# vorausgesetzt (entweder/oder, aber auch zusammen mit der Option "--write-auto-sub"):
+--write-sub
+# Schreibe automatisch generierte Untertitel-Datei(en) (nur bei YouTube und sofern verfügbar); diese Option wird
+# zwingend von der Option "--embed-subs" vorausgesetzt (entweder/oder, aber auch zusammen mit
+# der Option "--write-sub"):                                     
+--write-auto-sub
+--sub-lang de,en,en-GB,en-US,fr
+--embed-subs
+# Bette das Vorschaubild (sofern vorhanden) direkt in das Audio bzw. Video ein, es erscheint bei Audios permanent
+# und bei Videos für ca. 1 Sekunde als "Umschlag-Kunst" (zumindest beim VLC; das Paket "atomicparsley" muss installiert
+# sein!):
+--embed-thumbnail
+--username="mheussner85@gmail.com" 
+--password="So2018ri"
+--prefer-free-formats 
+--restrict-filenames
+

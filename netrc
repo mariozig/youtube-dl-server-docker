@@ -1,2 +1,14 @@
-#dummy
+machine crunchyroll
+        login b0hal
+        password yeah12ha
+
+machine animeondemand 
+        login mheussner85@gmail.com 
+        password So2018ri
+
+machine wakanim 
+        login bohal1
+        password yeah12ha
+
+
 
